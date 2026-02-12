@@ -1,0 +1,14 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+android {
+    namespace "com.example.quran_app"
+    compileSdkVersion 33
+    defaultConfig {
+        applicationId "com.example.quran_app"
+        minSdkVersion 21
+        targetSdkVersion 33
+    }
+}
+
