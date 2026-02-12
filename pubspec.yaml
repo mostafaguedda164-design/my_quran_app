@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  startapp_sdk: ^2.1.0
+  startapp_sdk: 1.0.1
 
 dev_dependencies:
   flutter_test:
@@ -17,4 +17,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
